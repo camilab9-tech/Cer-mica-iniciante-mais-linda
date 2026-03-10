@@ -9,12 +9,18 @@ color:#333;
 
 header{
 
-background:#8b5e3c;
+background:#7a4b2c;
 color:white;
 padding:20px;
 display:flex;
 justify-content:space-between;
 align-items:center;
+
+}
+
+.logo{
+
+font-size:22px;
 
 }
 
@@ -31,19 +37,21 @@ font-weight:bold;
 
 text-align:center;
 padding:80px;
-background:#d8b89c;
+background:#c89c7c;
 color:white;
 
 }
 
 .hero button{
 
+margin-top:20px;
+padding:12px 24px;
 background:#5a3a27;
 color:white;
-padding:12px 20px;
 border:none;
 font-size:16px;
 cursor:pointer;
+border-radius:6px;
 
 }
 
@@ -75,13 +83,43 @@ box-shadow:0px 5px 15px rgba(0,0,0,0.1);
 .produto img{
 
 width:200px;
+height:200px;
+object-fit:cover;
 border-radius:10px;
+
+}
+
+.sobre-container{
+
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+
+}
+
+.foto-mila{
+
+width:200px;
+height:200px;
+object-fit:cover;
+border-radius:50%;
+border:6px solid #c89c7c;
+box-shadow:0px 10px 25px rgba(0,0,0,0.2);
+
+}
+
+.sobre-texto{
+
+max-width:400px;
+text-align:left;
 
 }
 
 footer{
 
-background:#8b5e3c;
+background:#7a4b2c;
 color:white;
 padding:20px;
 text-align:center;
